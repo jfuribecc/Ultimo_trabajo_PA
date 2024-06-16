@@ -1,0 +1,8 @@
+            - name: Setup Autify Command Line Interface (CLI)
+  # You may pin to the exact commit or the version.
+  # uses: autifyhq/actions-setup-cli@62decfdbb7902d221d4865ae6170d5dbcd3c90db
+  uses: autifyhq/actions-setup-cli@v2.1.2
+  with:
+    # Shell installer URL
+    shell-installer-url: # optional, default is https://autify-cli-assets.s3.amazonaws.com/autify-cli/channels/stable/install-cicd.bash
+          
